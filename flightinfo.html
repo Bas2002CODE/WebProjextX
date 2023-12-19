@@ -8,21 +8,22 @@
     <title>Gelre Airport - Vluchtoverzicht</title>
 </head>
 
-<body>
+<body class="flights-page">
     <nav class="navbar">
         <div class="logo">
-            <img src="path/to/your/transparent_logo.png" alt="Gelre Airport Logo">
+            <img src="image/airport.png" alt="Gelre Airport Logo">
         </div>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="register.html">Registratie</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flightinfo.html">Vluchtoverzicht</a></li>
+            <li><a href="check_in.html">Inchecken</a></li>
             <li><a href="login.html">Login</a></li>
-            <li class="active"><a href="flights.html">Vluchten</a></li>
         </ul>
     </nav>
 
+    <h2>Vluchtoverzicht</h2>
     <div class="container">
-        <h2>Vluchtoverzicht</h2>
+
 
         <table class="flight-table">
             <thead>
@@ -34,7 +35,6 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Sample flight data, replace with actual data from your system -->
                 <tr>
                     <td>GA123</td>
                     <td>New York</td>
@@ -47,7 +47,19 @@
                     <td>02:30 PM</td>
                     <td>07:30 PM</td>
                 </tr>
-                <!-- Add more rows as needed -->
+
+                <tr>
+                    <td>GA789</td>
+                    <td>Paris</td>
+                    <td>04:15 PM</td>
+                    <td>08:45 PM</td>
+                </tr>
+                <tr>
+                    <td>GA101</td>
+                    <td>Tokyo</td>
+                    <td>06:45 PM</td>
+                    <td>11:30 PM</td>
+                </tr>
             </tbody>
         </table>
     </div>

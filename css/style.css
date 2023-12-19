@@ -152,3 +152,29 @@ h2 {
 .flight-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+
+body.flights-page .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+body.flights-page h2 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body.flights-page .flight-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    height: 40vh;
+}
