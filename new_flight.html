@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gelre Airport - Nieuwe Vlucht en Passagier</title>
+</head>
+
+<body class="add-page">
+    <nav class="navbar">
+        <div class="logo">
+            <img src="image/airport.png" alt="Gelre Airport Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flight_info.html">Vluchtoverzicht</a></li>
+            <li><a href="new_passenger.html">Passagier toevoegen</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Nieuwe Vlucht Toevoegen</h2>
+            <form action="add-flight-process.php" method="post">
+                <label for="flightNumber">Vluchtnummer:</label>
+                <input type="text" id="flightNumber" name="flightNumber" required>
+
+                <label for="departure">Vertrekplaats:</label>
+                <input type="text" id="departure" name="departure" required>
+
+                <label for="destination">Bestemming:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="departureTime">Vertrektijd:</label>
+                <input type="datetime-local" id="departureTime" name="departureTime" required>
+
+                <label for="arrivalTime">Aankomsttijd:</label>
+                <input type="datetime-local" id="arrivalTime" name="arrivalTime" required>
+
+                <button type="submit">Toevoegen</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
