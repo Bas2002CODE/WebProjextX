@@ -22,8 +22,12 @@
         </ul>
     </nav>
 
-    <h2>Passagiersoverzicht - Vluchtnummer: GA123</h2>
+
+    <h2>Passagiersoverzicht - Naam: John Doe</h2>
+    <p>Hieronder vindt u een lijst van passagiers die voldoen aan de zoekopdracht:</p>
     <div class="container">
+
+
         <table class="passenger-table">
             <thead>
                 <tr>
@@ -31,35 +35,37 @@
                     <th>Leeftijd</th>
                     <th>Geslacht</th>
                     <th>Vluchtnummer</th>
+                    <th>Bewerken</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>John Doe</td>
+                    <td><a href="passenger-details.html">John Doe</a></td>
                     <td>30</td>
                     <td>Man</td>
                     <td>GA123</td>
+                    <td><button class="edit-button">Bewerken</button></td>
                 </tr>
                 <tr>
-                    <td>Jane Smith</td>
-                    <td>25</td>
-                    <td>Vrouw</td>
-                    <td>GA123</td>
-                </tr>
-                <tr>
-                    <td>Bob Johnson</td>
-                    <td>45</td>
+                    <td><a href="passenger-details.html">John Doe</a></td>
+                    <td>12</td>
                     <td>Man</td>
-                    <td>GA123</td>
-                </tr>
-                <tr>
-                    <td>Alice Williams</td>
-                    <td>35</td>
-                    <td>Vrouw</td>
-                    <td>GA123</td>
+                    <td>GA456</td>
+                    <td><button class="edit-button">Bewerken</button></td>
                 </tr>
             </tbody>
         </table>
+
+
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <form class="search-form" action="#" method="get">
+                <label for="search">Zoeken:</label>
+                <input type="text" id="search" name="search" placeholder="Voer naam in">
+                <button type="submit">Zoeken</button>
+            </form>
+        </div>
     </div>
 </body>
 

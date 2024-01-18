@@ -231,7 +231,8 @@ body.passenger-page {
     margin: 0;
 }
 
-body.passenger-page h2 {
+body.passenger-page h2,
+p {
     color: black;
     text-align: center;
     padding-top: 30px;
@@ -248,8 +249,6 @@ body.passenger-page .container {
 
 }
 
-
-
 .passenger-table th,
 .passenger-table td {
     border: 1px solid #ddd;
@@ -265,6 +264,21 @@ body.passenger-page .container {
 .passenger-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+.edit-button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #27ae60;
+}
+
+
 
 
 @media screen and (max-width: 600px) {
