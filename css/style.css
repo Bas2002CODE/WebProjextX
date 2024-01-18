@@ -239,7 +239,7 @@ p {
 }
 
 body.passenger-page .container {
-    height: 20vw;
+    height: 15vw;
 }
 
 .passenger-table {
@@ -277,9 +277,6 @@ body.passenger-page .container {
 .edit-button:hover {
     background-color: #27ae60;
 }
-
-
-
 
 @media screen and (max-width: 600px) {
     .navbar {
